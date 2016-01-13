@@ -1,5 +1,6 @@
 import sublime, sublime_plugin
 import socket
+import sys
 
 """
 Copyright (c) Nick Iv | https://nick-iv.me/
@@ -129,5 +130,5 @@ class TypogrArtlebedevCommand(sublime_plugin.TextCommand):
 
         rt = RemoteTypograf(settingsObject)
         typogrText = rt.processText(text)
-        print(typogrText)
+
         v.replace(edit, v.sel()[0], typogrText)
