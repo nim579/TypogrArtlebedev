@@ -1,0 +1,52 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [
+            { "caption": "-" },
+            {
+                "command": "typogr_artlebedev",
+                "caption": "Typogr (HTML entities)",
+                "args": {"entities": 1}
+            },
+            {
+                "command": "typogr_artlebedev",
+                "caption": "Typogr (XML entities)",
+                "args": {"entities": 2}
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":[
+                    {
+                        "caption": "Typogr Artlebedev",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/TypogrArtlebedev/TypogrArtlebedev.sublime-settings"},
+                                "caption": "Settings"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/TypogrArtlebedev/TypogrArtlebedev.sublime-keymap"},
+                                "caption": "Key Bindings"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+

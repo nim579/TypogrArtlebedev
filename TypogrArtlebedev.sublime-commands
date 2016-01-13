@@ -1,0 +1,23 @@
+[
+    {
+        "caption": "Typograf Artlebedev: Typogr with HTML entities",
+        "command": "typogr_artlebedev",
+        "args": {
+            "entities": 1
+        }
+    },
+    {
+        "caption": "Typograf Artlebedev: Typogr with XML entities",
+        "command": "typogr_artlebedev",
+        "args": {
+            "entities": 2
+        }
+    },
+    {
+        "caption": "Typograf Artlebedev: Typogr without entities",
+        "command": "typogr_artlebedev",
+        "args": {
+            "entities": 3
+        }
+    }
+]
