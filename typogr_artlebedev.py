@@ -1,6 +1,19 @@
 import sublime, sublime_plugin
 import socket
 
+"""
+Copyright (c) Nick Iv | https://nick-iv.me/
+Copyright (c) Art. Lebedev Studio | http://www.artlebedev.ru/
+
+Typograf homepage: http://typograf.artlebedev.ru/
+Web-service address: http://typograf.artlebedev.ru/webservices/typograf.asmx
+WSDL-description: http://typograf.artlebedev.ru/webservices/typograf.asmx?WSDL
+
+Author: Nikolay Ivanushkin (nim@nim579.ru)
+Typograf author: Sergey Lavrinenko (s.lavrinenko@gmail.com)
+Version: 1.0 (2015-01-13) based on script by Andrew Shitov (ash@design.ru)
+"""
+
 class RemoteTypograf:
 
     _entityType = 4
